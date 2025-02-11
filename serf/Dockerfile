@@ -14,7 +14,7 @@
 # busybox wget doesn't support SSL, no curl available :-(
 #FROM busybox:latest
 # nosemgrep: dockerfile.audit.dockerfile-source-not-pinned.dockerfile-source-not-pinned
-FROM alpine:3.12
+FROM alpine:3.19.6
 
 ARG SERF_VERSION=0.8.2
 
