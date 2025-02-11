@@ -14,7 +14,7 @@
 #FROM harisekhon/centos-java:jre7
 # > 100MB smaller than centos
 # nosemgrep: dockerfile.audit.dockerfile-source-not-pinned.dockerfile-source-not-pinned
-FROM alpine:3.12
+FROM alpine:3.19.6
 
 ARG SPARK_VERSION=1.6.2
 ARG HADOOP_VERSION=2.6
