@@ -12,7 +12,7 @@
 #
 
 # nosemgrep: dockerfile.audit.dockerfile-source-not-pinned.dockerfile-source-not-pinned
-FROM alpine:3.12
+FROM alpine:3.19.6
 
 ARG APACHE_DRILL_VERSION=1.17.0
 
