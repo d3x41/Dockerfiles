@@ -12,7 +12,7 @@
 #
 
 # nosemgrep: dockerfile.audit.dockerfile-source-not-pinned.dockerfile-source-not-pinned
-FROM alpine:3.12
+FROM alpine:3.21.3
 
 ARG NIFI_VERSION=1.9.0
 
