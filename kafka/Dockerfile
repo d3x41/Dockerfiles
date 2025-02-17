@@ -12,7 +12,7 @@
 #
 
 # nosemgrep: dockerfile.audit.dockerfile-source-not-pinned.dockerfile-source-not-pinned
-FROM alpine:3.12
+FROM alpine:3.21.3
 
 ARG SCALA_VERSION=2.11
 ARG KAFKA_VERSION=0.9.0.1
